@@ -1,0 +1,110 @@
+body{
+    font-family: Helvetica, sans-serif;
+    color:seashell;
+    background-color:black;
+    opacity: 0.9;
+}
+h2,h3,h4,h5{
+    text-align: center;
+}
+.banner{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*14nelyc*_gcl_au*MTQ1Mzg0OTMzOS4xNzMxMDcyODg2*_ga*NjEwNjIwMjY5LjE3MzI0MDkxNzE.*_ga_3LRZM6TM9L*MTczMzY2OTkzNy42Mi4xLjE3MzM2NzAxODkuMC4wLjA."); 
+    height:700px;
+    width:1200px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    margin: 0 auto;
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner div{
+    background-color: black;
+    width:1200px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    
+}
+
+header img{
+    max-height: 50px;
+    margin: 9.75px 0 9.75px 10px;
+}
+li{
+    display:inline;   
+}
+a{
+    color:seashell;
+}
+
+.tea-of-the-month{
+    background-color: black;
+    margin:50px auto;
+}
+figure img{
+    height: 200px;
+    width: 300px;
+}
+#featured{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figcaption{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*locations*/
+
+.location{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*lohj66*_gcl_au*MTQ1Mzg0OTMzOS4xNzMxMDcyODg2*_ga*NjEwNjIwMjY5LjE3MzI0MDkxNzE.*_ga_3LRZM6TM9L*MTczMzY2OTkzNy42Mi4xLjE3MzM2NzAxODkuMC4wLjA.");
+   
+    height: 500px;
+    width: 1200px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    font-size: 22px;
+    line-height: 1.6;
+    height:fit-content;
+    width:300px;
+    background-color: black;
+    margin: 0 40px;
+    
+}
+
+.x{
+    font-size: 35px;
+    font-weight:bold;
+    margin-bottom: 25px;
+}
+
+#locations{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.copyright{
+    margin-left: 20px;
+    text-align: left;
+}
